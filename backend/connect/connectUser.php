@@ -4,13 +4,13 @@
 	$hostname = '127.0.0.1';
 
 	/*** mysql username ***/
-	$username = 'gameUser';
+	$username = 'hassanUser';
 
 	/*** mysql password ***/
-	$password = 'iSEDh965YlQCbY7Y';
+	$password = 'cE2h478QdvXcTPOc';
 
 	try {
-		$conn = new PDO("mysql:host=$hostname;dbname=game", 
+		$conn = new PDO("mysql:host=$hostname;dbname=hassan", 
 		                $username, $password
 					   );
 		// set the PDO error mode to exception

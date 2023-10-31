@@ -7,7 +7,27 @@
                 <a href="../../index.php"><p>Back to the registration page</p></a>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <form action="signup.php" method="post">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email"><br>
+
+                        <label for="email">Firstname:</label>
+                        <input type="text" name="firstname"><br>
+
+                        <label for="email">Lastname:</label>
+                        <input type="text" name="lastname"><br>
+
+                        <label for="email">Username:</label>
+                        <input type="text" name="username"><br>
+
+                        <label for="email">Password:</label>
+                        <input type="password" name="password1"><br>
+
+                        <label for="email">Confirm Password:</label>
+                        <input type="password" name="password2"><br>
+                        <input type="submit">
+
+                        <!--
                         <div class="form-group">
                             <label for="email">Email:</label>
                             <input type="text" class="form-control" id="email">
@@ -39,7 +59,8 @@
                         </div>
                         <br />
                         <button type="button" class="btn btn-secondary" id="btnSubmit">Signup</button>
-                    </div>
+                        -->
+                    </form>
                 </div>
             </div>
         </div>

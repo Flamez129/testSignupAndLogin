@@ -7,22 +7,30 @@
                 <a href="../../index.php"><p>Back to the registration page</p></a>
                 
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="text" class="form-control" id="email">
-                        </div>
+                    <form action="login.php" method="post">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email"><br>
 
-                        <div class="form-group">
-                            <label for="pwd1">Password:</label>
-                            <input type="password" class="form-control" id="pwd1">
-                        </div>
+                        <label for="email">Password:</label>
+                        <input type="password" name="password1"><br>
+                        <input type="submit">
+                    </form>
+                    
 
-                        <br />
-                        <button type="button" class="btn btn-secondary" id="btnSubmit">Login</button>
-
+                    <!--
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email">
                     </div>
 
+                    <div class="form-group">
+                        <label for="pwd1">Password:</label>
+                        <input type="password" class="form-control" id="pwd1">
+                    </div>
+
+                    <br />
+                    <button type="button" class="btn btn-secondary" id="btnSubmit">Login</button>
+                    -->
                 </div>
             </div>
         </div>
